@@ -1,0 +1,6 @@
+when we want to upload our code to github, we just want to upload our src
+so we need to exclude our binary (./my-rssagg) using .gitignore file
+just specified the files that want to be excluded from the github in .gitignore
+
+to add all the config for our project we use .env file
+but we don't need to upload the .env file into github coz the PORT may be different in the prod
