@@ -4,3 +4,7 @@ just specified the files that want to be excluded from the github in .gitignore
 
 to add all the config for our project we use .env file
 but we don't need to upload the .env file into github coz the PORT may be different in the prod
+
+go mod vendor creates vendor folder
+vendor is to create a local copy of our dependency project code into our project so it would still be available even after the dependency is gone from the internet
+https://stackoverflow.com/questions/68544611/what-is-the-purpose-of-go-mod-vendor-command
