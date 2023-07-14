@@ -7,6 +7,7 @@ import (
 )
 
 func respondWithError(w http.ResponseWriter, code int, msg string) {
+	// error code 500 above means there's a problem in the server side, error around 400 means problem from the client side
 	if code > 499 {
 		log.Println("Responding with 5xx error:", msg)
 	}
